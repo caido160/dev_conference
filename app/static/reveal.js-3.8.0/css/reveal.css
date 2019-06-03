@@ -24,6 +24,13 @@ body {
   background-color: #fff;
   color: #000; }
 
+ 
+html.dim-background-6 .slide-background {
+    opacity: 0.6 !important;
+}
+html.dim-background-4 .slide-background {
+    opacity: 0.4 !important;
+}
 /*********************************************
  * VIEW FRAGMENTS
  *********************************************/
