@@ -1,4 +1,4 @@
-Luua alamteemad
+﻿Luua alamteemad
 
 Esiteks, mis on GIS
 1 GIS erinevad tõlgendused ja väga lai tähendus.
@@ -21,7 +21,7 @@ Esiteks, mis on GIS
 		(NB! ei ole filoloog ja tõenäoliselt oleks saanud palju ilusamalt neid lauseid kirjutada....aga me ju oleme harjunud keerulisest selgitusest aru saama :))
 		
 4 Erinevad osad, mis moodustavad GIS-i 
-     * Tarkvara
+	 * Tarkvara
 	 * andmed
 	 * Tehnoloogia
 	 
@@ -45,6 +45,10 @@ Andmed
 		varasemalt ja ka praegu tuleb ruumandmete vaates väga palju andmeid avalikust sektorist. Tavaliselt konkreetse vajaduse vaates.
 		 (andmed korrastati perioodiliselt, siis kui neid vaja läks (aluskaart - tehti aasta lõpus korrastus ja tehti toode)
 		 Praegu on andmed järjest rohkem pidevalt up-to-date. üheks põhjuseks on andmekogujad (andmemahud,tehnika ja kogumisvõimalusi on nii palju, et seda saab suuresti automatiseerida ja sealt tuleb pidevalt palju peale)
+	* satipildid (planet näide) 
+		* oma satelliidid
+		* 30 jaama, 
+      Sujuvalt edasi tehnoloogia peale (masinõpe - objektide tuvastamine, klasterdamine prognoosimine)
 		 
 		 
 		 
