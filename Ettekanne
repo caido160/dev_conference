@@ -1,0 +1,139 @@
+GIS täna ja tulevikus
+-----------------------------
+I
+
+Kes ma olen?
+Tere, olen Kaido Irdt, Geoinfo tooteomaniku rollis.
+Olen tegelenud GIS-i valdkonnaga aastast 2010, SMIT-is 2016 aastast.
+sellisena alustasin ma "ametlikult" selles valdkonnas toimetamist - noor, roheline
+
+Miks ma siin olen?
+Märt "soovitas" mul "vabatahtlikult" rääkima tulla.
+
+
+-----------------------------
+II
+
+Mis on GIS
+Selleks, et rääkida GIS-i olevikust ja tulevikust peaks kõigepealt selgitama, mis asi see üldse on.
+
+Termin ise:
+Geographic Inforamtion System
+Geograafilise informatsiooni süsteem
+Geoinfosüsteem - meil kõige levinum vorm
+
+Aga ikkagi....mis on GIS? 
+	Kas see on Kaart?  EI!
+   Vaatame siis kuidas teised on proovind sõnastada:
+    “GIS is an integrated system of computer hardware, software, and trained personnel linking topographic, demographic, utility, facility, image and other resource data
+    that is geographically referenced.” ~ NASA 
+	
+	“In the strictest sense, a GIS is a computer system capable of assembling, 
+	storing, manipulating, and displaying geographically referenced information,
+	i.e. data identified according to their locations. 
+	Practitioners also regard the total GIS as including operating personnel and the data that go into the system.” ~ USGS“
+	US Department of the Interior alla kuuluv üksus....ei see ei ole sama, mis meie siseministeerium, pigem nagu keskkommanminiseerium meie vaates.
+
+Aga ikkagi...mis see on? 
+    Küsides kümne GIS valdkonna spetsialisti käest saad sa 10 erinevat vastust....siin on siis üks nendest vastustest.
+	Proovin natukene rääkida enda seisukohast, kuna mina olen ka üks GIS-i valdkonna.....profesionaalne amatöör?
+	<Amatöör ehk asjaarmastaja (ka harrastaja) on inimene, kes tegeleb mõne harrastuse või tööga, kuid kellel ei ole selles valdkonnas formaalset haridust. Amatöör võib saada oma töö eest väikest ja ebaregulaarset tasu. Amatööri vastand on professionaal.>
+	
+	Kaudselt geoinfosüsteemiks võib nimetada kõiki infosüsteeme, kus on geoandmed sees. 
+	Sisuliselt piisab sellest, kui infosüsteem kuvab enda andmeid kaardikihil :)
+	
+	Aga tegelikult pole see päris nii lihtne.
+	GIS on ikkagi geoinfosüsteem, mille kesksel kohal on geoandmed, nende hoiustamine, töötlemine, analüüsimine ja visualiseerimine. - Kaart on ainult üks väljunditest.
+
+	AS Regio "Kaardid ja GIS 2000. aasta rahvaloendusel":
+	Laiemalt on GIS riistvara, tarkvara, andmete ja organisatsiooni kogum, mis lisaks tavalise infosüsteemi võimalustele saab
+		kaarte automaatselt genereerida
+		hallata arvutikaarte
+		töödelda korraga graafilisi ja mittegraafilisi andmeid ning tulemusi graafiliselt esitada
+		asukohaga seotud infot analüüsida.
+
+	Peamised päringute liigid, mida GISiga tehakse, on
+
+		asukohapäringud	Mis asub asukohas ...?
+		otsingupäringud	Kus asub objekt ...?
+		trendipäringud	Mis on muutunud ... jooksul?
+		teekonnapäringud	Milline on parim tee ...?
+		klassifitseerimispäringud	Mis tüüpi on piirkond ...?
+		modelleerimispäringud	Mis juhtub kui ...?
+
+------------------------------------
+III
+
+Selleks, et vaadelda kus me selles valdkonnas meie (ei mõtle SMIT-i) täna oleme on kõige lihtsam vaadata konkreetseid komponente. 
+Andmed
+Tehnoloogiad
+Turg - ärimudeld jne
+
+------------------------------------
+IV
+Andmed
+	Avaliku sektori andmed ja avaandmed
+		- Andmete kättesaadavus pole olnud kungi nii lihtne ja odav, kui praegu.
+		- Andmete kogus pole olnud mitte kunagi nii suur ja andmete uuenemissagedus pole olnud mitte kunagi nii suur kui praeug
+		- Copernicus 2014 (fully operational)
+		- OSM alustati sisuliselt 2006 (2004) praegu väga paljude startupide stardikoht.
+		- INSPIRE 2007. 2011 algas siis päriselt implementatsioon - (kuid sellel projektil on üks teine probleem)
+		- Maa-amet "kõigile" kättesaadavaid andmed on pidevalt kasvanud, kuid kõige märgilisem on 2018 - ETAK avaandmetena.
+			Ortofotod, lidar, täis vektorandmestik jne - tegelikult väga hea kvaliteediga.
+	
+	Seireandmed.
+		- GPS signaali vastuvõtjad (nüüd juba ka igasugu muud asukoha arvutajad)
+		- asjade internet (tänapäeval on juba elementaarne, et sa "tag-id" ka mingi asukoha külge).
+		- Droonid - andmeid on nüüd lihte toota
+		- Kosmos - 		
+			Planeti näide Prageuseks on neil maailma suurim "satelliidipark" 
+				"Startup" aastast 2010
+				kokku on nende hallata ~200 satelliit (see muutub pidevalt) aktiivseid vist ~150 kokku on lasnu ülesse ~300
+				kaotasid 26 sateliiti ühe korraga - Tegutsevad edasi
+				1,2 M pilti iga 24 tunni jooksul 
+				planescope 200M+ km2/day   (RGB+NIR)
+				rapideye 6,5 km2/day	(RGB+red edge+NIR)
+				skysat 400K km2/day		(RGB+NIR+pan)
+	
+	
+	Tulevik on sinna suunas, et andmed on pigem tasuta - teenus ja knowhow maksab.
+	
+	
+-----------------------
+V
+Tehnoloogia
+	GIS - spetsialist, "andmebaas" 
+		-> Spetsialistid (serverirakendus/teenused + andmebaas) 
+		-> spetsialist/"ja teised", Palju teenuseid WEBGIS
+	webgl - vector tile on valmis tehnoloogia 3d,2d tiled. 
+		Täna saab öelda, et see on selles kategoorias, et see muutub odavaks. Nüüd ootame kuni huvitavaks läheb.
+		See on üks näide mismoodi WEBGIS reaalseks muutub (räägin äride juures täpsemalt)
+	
+	Masinõpe 
+		- see sama planeti näide automaatne klassifitseerimine
+		-  Teede tuvastamine
+		-  Lennukid lennjaamas/laevad sadamas
+	Augmenteeritud reaalsis (ka virtuaalreaalsus....aga seal on praegu cad-i maailmas rohkem)
+		-	Käisin rootsis.
+		-   Aga ka esri konverentsil
+		-   tõenäoliselt tehnoloogia aregu mõttes läheb hind alla ja sealt tehniline 
+			võimekus päästjate visiiri peale kuvada elektrikappide asukoht majas sees on võimalik.
+			AGA andmemudeli kui terviku vaates on see aeg veel kaugel - üksikuid demoandmeid ja "demo" projekte saaks teha, 
+			kuid seda, et ehitusregister, objekt looduses, kaabel seinas kõik omavahel standardiseeritult seotud oleks ja sellise andmestikuga oleks kaetud terve riik - sinna läheb väga palju aega (aga see on tulemas)
+			
+			
+Turg - valmislahendused - ärimudelid
+	andmetest - teenusteni
+	karbitoodetest ja üksikutest litsentsidest kontodeni.
+	Kuna GIS valdkond tervikuna on aeglane uute lahenduste kasutuselevõtja, siis alles nüüd on tulemas ka n.ö. servicee on demand tüüpi lahendused - suurte raster
+	
+Kokkuvõtteks
+	GIS on tavaline IS, mis vajab natukene erilisi teadmisi.
+	Geoandmetest vajaliku info kättesaamine muutub mitte-geoinformaatikule palju lihtsmaks.
+	Augmenteeritud reaalsus tuleb GIS maailma!
+ 
+
+
+
+
+

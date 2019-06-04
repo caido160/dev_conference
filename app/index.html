@@ -40,17 +40,17 @@
 					<section>
 						<h2>Kes ma olen</h2>
 						<br>
-						<img src="stuff/2010.jpg"  height="300" width="220" align="left">
 						<br>
-						<small>Geoinfo tooteomanik</small>
+						Geoinfo tooteomanik
 						<br>
-						<small>GIS valdkonnas alates aastast 2010</small>
-						<small>SMIT-i sattusin 2016 aasta alguses</small>
+						GIS valdkonnas alates aastast 2010<br>
+						SMIT-i sattusin 2016 aasta alguses
 						<aside class="notes">
-							Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+							sellisena alustasin ma "ametlikult" selles valdkonnas toimetamist - noor, roheline<br>
+							Amatöör ehk asjaarmastaja (ka harrastaja) on inimene, kes tegeleb mõne harrastuse või tööga, kuid kellel ei ole selles valdkonnas formaalset haridust. Amatöör võib saada oma töö eest väikest ja ebaregulaarset tasu. Amatööri vastand on professionaal.
 						</aside>
 					</section>
-				    <section data-notes="Something">
+				    <section>
 					<p>Miks ma siin olen</p>
 					<p><span class="fragment fade-in">Sest ma....</span></p>
 					</section>
@@ -66,10 +66,8 @@
 					</section>
 					<section>
                         <div>
-							<p>GIS</p>
-                            <small>
+							<h2>GIS</h2>
 							<p><span class="fragment fade-in">Geographic Inforamtion System<br>Geoinfosüsteem<br>Geograafiline infosüstem<br></span></p>
-                            </small>
                         </div>
 					</section>
 					<section>
@@ -137,40 +135,127 @@
 				<section>
 					<section>
 						<h2>Andmed<h2>
+						<aside class="notes">
+							Andmed on Geoinfosüsteemi üheks põhi komponendiks.<br>
+							Geoandmed - mitte ainult koordinaadid. Kui rääkiga geoanalüüsist (tänapäeva kohta), siis seal ongi aluseks andmete võrdlus.
+							Kui algselt hoidis igaüks oma kogutud andmetest kinni - need olid väärtusilikud. (neid oli vähe ja andmete kogumine oli kulukas)
+						</aside>						
 					</section>
 					<section>
 						<p>avaliku sektori andmed.</p>
 						<img src="stuff/avaandmed.jpg"  height="780" width="639" >
+						<aside class="notes">
+							Andmete kättesaadavus pole olnud kungi nii lihtne ja odav, kui praegu.<br>
+							- Andmete kogus pole olnud mitte kunagi nii suur ja andmete uuenemissagedus pole olnud mitte kunagi nii suur kui praegu<br>
+							(uuendusvajadus)
+						</aside>
+					</section>
+					<section data-background="stuff/logod.png" data-background-size="contain">
+						<aside class="notes">		
+								- Copernicus 2014 (fully operational)
+								- OSM alustati sisuliselt 2006 (2004) praegu väga paljude startupide stardikoht.
+								- INSPIRE 2007. 2011 algas siis päriselt implementatsioon - (kuid sellel projektil on üks teine probleem)
+								- Maa-amet "kõigile" kättesaadavaid andmed on pidevalt kasvanud, kuid kõige märgilisem on 2018 - ETAK avaandmetena.
+								Ortofotod, lidar, täis vektorandmestik jne - tegelikult väga hea kvaliteediga.
+						</aside>
 					</section>
 					<section>
+						<h2>Andmete kogumine</h2>
+					</section>
+					<section data-background-video="stuff/earth.mp4" data-background-video-loop="loop">
 						<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">First it becomes possible, then it becomes so cheap that anyone can do it... and that&#39;s where it gets interesting. <a href="https://t.co/f7oeLHAqgI">https://t.co/f7oeLHAqgI</a></p>&mdash; Hilary Mason (@hmason) <a href="https://twitter.com/hmason/status/772075074065166345?ref_src=twsrc%5Etfw">September 3, 2016</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 					</section>
 					<section data-background-video="stuff/earth.mp4" data-background-video-loop="loop">
-					<p>lähi ja kaugseire andmed</p>
-					<p>droonid</p>
-					<p>Planet näide</p>
+					<h2>kaugseire</h2>
+					<p><span class="fragment fade-in">GPS, Galileo, GLONASS, BeiDou - vastuvõtjad ("asukoha moodulid").</span></p>
+					<p><span class="fragment fade-in">Droonid ja asjade internet</span></p>
+					<p><span class="fragment fade-in">Kaugseire</span></p>
+					<p><span class="fragment fade-in">...Näitena planet (endine planet labs)</span></p>
+					<span class="fragment fade-in"><q> First it becomes possible, then it becomes so cheap that anyone can do it... and that&#39;s where it gets interesting. </q> Hilary Mason (@hmason)
+					</span>
+					<aside class="notes">
+					Planeti näide Prageuseks on neil maailma suurim "satelliidipark" <br>
+					"Startup" aastast 2010 <br>
+					kokku on nende hallata ~200 satelliit (see muutub pidevalt) aktiivseid vist ~150 kokku on lasnu ülesse ~300 <br>
+					kaotasid 26 sateliiti ühe korraga - Tegutsevad edasi  <br>
+					1,2 M pilti iga 24 tunni jooksul  <br>
+					planescope 200M+ km2/day   (RGB+NIR)  <br>
+					rapideye 6,5 km2/day	(RGB+red edge+NIR) <br>
+					skysat 400K km2/day		(RGB+NIR+pan) <br>
+					</aside>
 					</section>
 					<section>
 						<p>Standardid</p>
 						<br><br>
-						<p>Standardiseeritud tagavad parema integreeritavse.</p>
+						<p>Standardiseeritud andmeformaadid tagavad parema integreeritavuse.</p>
+						<aside class="notes">
+							lihtsam integreerida, lihtsam liidestuda - suurem valik koodi
+						</aside>
 					</section>
 				</section>
 				<section>
 					<section>
 					<h2>Tehnoloogia<h2>
-					<p>riistvara jõudlus -> webgl ja vector tile</p>
-					<p>masinõpe</p>
-					<p>AR/VR</p>
+					</section>
+					<section>
+					<p>riistvara jõudlus -> me ei ole enam kinni eelrenderdatud andmete serveerimises.</p>
+					<p><span class="fragment fade-in">WEBGL ja VECTOR TILE<br>
+					"lihtsam" on visuaalne pilt renderdada kliendis, nii nagu lõppkasutaja parasjagu tahab</span></p>
+					<aside class="notes">
+						Suund kuhu ka smit tahab liikuda. Ootame maa-ametit, kui ise enne ära ei tee <br>
+						Täna saab öelda, et see on selles kategoorias, et see muutub odavaks. Nüüd ootame kuni huvitavaks läheb.<br>
+						See on üks näide mismoodi WEBGIS reaalseks muutub (räägin äride juures täpsemalt)
+					</aside>
+					</section>
+					<section>
+					<h2>masinõpe</h2>
+					<p>klassifitseerimine</p>
+					<p>objektide tuvastus</p>
+					<p><span class="fragment fade-in">Toodame andmetest automaatselt andmeid</span></p>
+					<aside class="notes">
+						teede tuvastamine <br>
+						lennukid lennujaamas <br>
+						Esri tark klasterdamine <br>
+					</aside>
+					</section>
+					<section data-background="stuff/machine_learning.png" data-background-size="contain" data-state="dim-background-6">
+						<p>tark klasterdamine</p>
+					</section>
+					<section>
+					<h2>AR/VR<h2>
+					<p></p>
+					</section>
+					<section data-background="stuff/augmented_reality.jpg" data-background-size="contain">
+					<aside class="notes">
+					võimekus kuvada maa all olevaid kaableid.
+					AGA andmemudeli kui terviku vaates on see aeg veel kaugel - üksikuid demoandmeid ja "demo" projekte saaks teha, 
+					kuid seda, et ehitusregister, objekt looduses, kaabel seinas kõik omavahel standardiseeritult seotud oleks ja sellise andmestikuga oleks kaetud terve riik - sinna läheb väga palju aega (aga see on tulemas)
+					</aside>
 					</section>
 				</section>
 				<section>
 					<section>
-						<h2>Äri (erasektor)<h2>
-						<p>litsents ja karbitoode -> teenus ja konto</p>
+						<h2>Ärimudelid<h2>
+					</section>
+					<section>
+						<p> Litsents ja karbitoode -> teenus ja konto</p>
+						<p> Planet ei müü pilte, vaid teenust</p>
+					</section>
+					<section>
+						<p> WebGIS</p>
 						<p> carto,mapbox,arcgis online </p>
 					</section>
+				</section>
+				<section>
+					<h2>Kokkuvõtteks<h2>
+				</section>
+				<section>
+					<br>
+					<p>GIS ei ole kaart vaid kaart on üks GIS-i väljund<br><br>
+					Geoandmetest vajaliku info kättesaamine muutub järjest lihtsamaks ja odavamaks.<br><br>
+					Augmenteeritud reaalsus tuleb GIS maailma!
+					</p>
 				</section>
 			</div>
 		</div>
