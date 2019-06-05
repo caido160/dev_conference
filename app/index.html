@@ -93,7 +93,7 @@
 						</div>
 					</section>
 					<section data-background="stuff/question_mark.jpg" data-background-size="contain" data-state="dim-background-4">
-						<p>AS Regio "Kaardid ja GIS 2000. aasta rahvaloendusel":
+						<p>Teet Jagomägi/AS Regio "Kaardid ja GIS 2000. aasta rahvaloendusel":
 						<small>
 						<blockquote>
 						Laiemalt on GIS riistvara, tarkvara, andmete ja organisatsiooni kogum, kus lisaks tavalise infosüsteemi võimalustele saab: <br><br>
@@ -121,13 +121,16 @@
 					<h3>Kus me siis täna oleme ja kuhu liigume<h3>
 					</section>
 					<section data-background="stuff/kust_kuhu.gif" data-background-size="contain">
+					<aside class="notes">
+						Aga see vist polnud see, millest ma rääkima peaksin. Vaid ma räägin natukene rohkem sellest, kus on GIS valdkond kui selline ja kuhu see valdkond praegu liigub
+					</aside>
 					</section>
 					<section>
 						<p>
 						<ol>
 							<li>ANDMED</li><br>
 							<li>TEHNOLOOGIA</li><br>
-							<li>ÄRIMUDELID</li>
+							<!--<li>ÄRIMUDELID</li>-->
 						</ol>
 						</p>
 					</section>
@@ -136,9 +139,7 @@
 					<section>
 						<h2>Andmed<h2>
 						<aside class="notes">
-							Andmed on Geoinfosüsteemi üheks põhi komponendiks.<br>
-							Geoandmed - mitte ainult koordinaadid. Kui rääkiga geoanalüüsist (tänapäeva kohta), siis seal ongi aluseks andmete võrdlus.
-							Kui algselt hoidis igaüks oma kogutud andmetest kinni - need olid väärtusilikud. (neid oli vähe ja andmete kogumine oli kulukas)
+							Ruumiandmed käesoleva seaduse tähenduses on andmed, mis otseselt või kaudselt osutavad konkreetsele asukohale või geograafilisele alale, sealhulgas andmekogudes hallatavad andmed, mis kirjeldavad ruumiobjektide asukohta, omadusi ja kuju geograafilises ruumis.
 						</aside>						
 					</section>
 					<section>
@@ -161,13 +162,16 @@
 					</section>
 					<section>
 						<h2>Andmete kogumine</h2>
+						<aside class="notes">		
+							
+						</aside>		
 					</section>
 					<section data-background-video="stuff/earth.mp4" data-background-video-loop="loop">
 						<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">First it becomes possible, then it becomes so cheap that anyone can do it... and that&#39;s where it gets interesting. <a href="https://t.co/f7oeLHAqgI">https://t.co/f7oeLHAqgI</a></p>&mdash; Hilary Mason (@hmason) <a href="https://twitter.com/hmason/status/772075074065166345?ref_src=twsrc%5Etfw">September 3, 2016</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 					</section>
 					<section data-background-video="stuff/earth.mp4" data-background-video-loop="loop">
-					<h2>kaugseire</h2>
+					<h2>Andmete kogumine</h2>
 					<p><span class="fragment fade-in">GPS, Galileo, GLONASS, BeiDou - vastuvõtjad ("asukoha moodulid").</span></p>
 					<p><span class="fragment fade-in">Droonid ja asjade internet</span></p>
 					<p><span class="fragment fade-in">Kaugseire</span></p>
@@ -185,22 +189,24 @@
 					skysat 400K km2/day		(RGB+NIR+pan) <br>
 					</aside>
 					</section>
-					<section>
+					<!--<section>
 						<p>Standardid</p>
 						<br><br>
 						<p>Standardiseeritud andmeformaadid tagavad parema integreeritavuse.</p>
 						<aside class="notes">
 							lihtsam integreerida, lihtsam liidestuda - suurem valik koodi
 						</aside>
-					</section>
+					</section>-->
 				</section>
 				<section>
 					<section>
 					<h2>Tehnoloogia<h2>
 					</section>
+					<section data-background="stuff/mobile_performance.jpg" data-background-size="contain">
+					</section>
 					<section>
 					<p>riistvara jõudlus -> me ei ole enam kinni eelrenderdatud andmete serveerimises.</p>
-					<p><span class="fragment fade-in">WEBGL ja VECTOR TILE<br>
+					<p><span class="fragment fade-in">WebGL ja VECTOR TILE<br>
 					"lihtsam" on visuaalne pilt renderdada kliendis, nii nagu lõppkasutaja parasjagu tahab</span></p>
 					<aside class="notes">
 						Suund kuhu ka smit tahab liikuda. Ootame maa-ametit, kui ise enne ära ei tee <br>
@@ -221,20 +227,25 @@
 					</section>
 					<section data-background="stuff/machine_learning.png" data-background-size="contain" data-state="dim-background-6">
 						<p>tark klasterdamine</p>
+						<aside class="notes">
+							Meie ei eeldefineeri enam konkreetset loogikat, et leida andmetest mustreid, vaid me laseme endale öelda, milliseid mustreid arvuti näeb.
+						</aside>
 					</section>
 					<section>
 					<h2>AR/VR<h2>
 					<p></p>
 					</section>
 					<section data-background="stuff/augmented_reality.jpg" data-background-size="contain">
+					</section>
+					<section data-background="stuff/augmented_reality_vgis.jpg" data-background-size="contain" >
 					<aside class="notes">
-					võimekus kuvada maa all olevaid kaableid.
-					AGA andmemudeli kui terviku vaates on see aeg veel kaugel - üksikuid demoandmeid ja "demo" projekte saaks teha, 
-					kuid seda, et ehitusregister, objekt looduses, kaabel seinas kõik omavahel standardiseeritult seotud oleks ja sellise andmestikuga oleks kaetud terve riik - sinna läheb väga palju aega (aga see on tulemas)
+						võimekus kuvada maa all olevaid kaableid.
+						AGA andmemudeli kui terviku vaates on see aeg veel kaugel - üksikuid demoandmeid ja "demo" projekte saaks teha, 
+						kuid seda, et ehitusregister, objekt looduses, kaabel seinas kõik omavahel standardiseeritult seotud oleks ja sellise andmestikuga oleks kaetud terve riik - sinna läheb väga palju aega (aga see on tulemas)
 					</aside>
 					</section>
 				</section>
-				<section>
+				<!--<section>
 					<section>
 						<h2>Ärimudelid<h2>
 					</section>
@@ -245,6 +256,22 @@
 					<section>
 						<p> WebGIS</p>
 						<p> carto,mapbox,arcgis online </p>
+					</section>
+				</section>-->
+				<section>
+					<section>
+						<h2>SMIT ja GIS</h2>
+					</section>
+					<section>
+							<h3>Käime üle oma baasteenused</h3>
+							<p>Asukoha teenused</p>
+							<p>Kaarditeenus</p>
+							<p>Analüüsi võimekus - teenused ja rakendused</p>
+						<aside class="notes">
+						  Selleks, et haldusalas oleks võimalik andmetest ruumiandmeid teha
+						  Kolisime üle Mapserver 7 peale - Tahame ka "vektortüki" kaarditeenuseid pakkuda
+						  Kaugustsoonid, tark teekond ja geoanalüüsi jaoks töövahendid
+						</aside>
 					</section>
 				</section>
 				<section>
